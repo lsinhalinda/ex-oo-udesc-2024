@@ -6,7 +6,7 @@ public class Livro {
     public boolean indisponivel() {
         return disponivel;
     }
-    public void retirado(){
+    public void emprestar(){
         disponivel=false;
         System.out.println("Livro indisponivel para retirada");
     }
